@@ -1,0 +1,49 @@
+.card {
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.433);
+    cursor: pointer;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.card:hover {
+    box-shadow: 0 0 7px black;
+    color: white;
+    background-color: #1e88e5;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info h2 {
+    font-size: 1.25rem;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.available {
+    color: green;
+    font-weight: bold;
+}
+
+.details {
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+}
+
+.soldOut {
+    color: red;
+    font-weight: bold;
+}

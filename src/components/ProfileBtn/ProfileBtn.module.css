@@ -1,0 +1,84 @@
+.mainBtn {
+    width: 40px;
+    margin-right: 35px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: white;
+    padding: 5px 5px;
+}
+
+.sideBar {
+    height: 100%;
+    position: fixed;
+    background-color: #4895ef;
+    right: 0;
+    top: 65px;
+    overflow: hidden;
+    z-index: 49;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    transition: 0.5s;
+}
+
+.open {
+    width: 250px;
+}
+
+.closed {
+    width: 0;
+}
+
+.sideBar ul {
+    list-style: none;
+    margin-top: 25px;
+    font-family: "Jost", system-ui;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    position: relative;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.pagina {
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 10px 20px;
+    width: 100%;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.pagina:hover {
+    background-color: #0466c8;
+    transition: 0.5s;
+}
+
+.deslogarBtn {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: "Jost", sans-serif, system-ui;
+    position: relative;
+    left: 140px;
+    bottom: 80px;
+    transition: 1s;
+}
+
+.deslogarBtn:hover {
+    background-color: #0353a4;
+    color: white;
+    transition: 0.5s;
+}
+
+.deslogarBtn:active {
+    background-color: #00356a;
+    color: grey;
+    transition: 0s;
+}

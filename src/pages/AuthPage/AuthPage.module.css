@@ -1,0 +1,134 @@
+.background {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../../public/images/background.png');
+    background-size: cover;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.window {
+    width: 700px;
+    height: 500px;
+    background-image: url('../../../public/images/fade.png');
+    background-size: cover;
+    border-radius: 25px;
+    box-shadow: 0 0 5px rgb(124, 124, 124);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.pink {
+    background-color: #fe5d9f;
+}
+
+.blue {
+    background-color: #1e88e5;
+}
+
+.returnBtn {
+    position: absolute;
+    left: 35px;
+    top: 35px;
+    width: 40px;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.5s;
+}
+
+.returnBtn:hover {
+    background-color: rgb(193, 193, 193);
+    transition: 0.5s;
+}
+
+.returnBtn:active {
+    background-color: grey;
+    transition: 0s;
+}
+
+.authForm {
+    display: flex;
+    flex-direction: column;
+    font-family: "Jost", sans-serif, system-ui;
+    align-items: center;
+    justify-content: center;
+}
+
+.formInput, .authForm button {
+    font-family: "Jost", sans-serif, system-ui;
+}
+
+.authForm h2 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.formInput {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 5px 20px;
+    border-radius: 15px;
+    border: none;
+    width: 200px;
+    transition: 0.5s;
+}
+
+.formInput:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgb(67, 67, 67);
+    transition: 0.5s;
+}
+
+.authForm button {
+    border: none;
+    border-radius: 25px;
+    margin-top: 25px;
+    font-size: 1.2rem;
+    padding: 6px 35px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.blueBtn:hover {
+    background-color: #0353a4;
+    color: white;
+    transition: 0.5s;
+}
+
+.blueBtn:active {
+    background-color: #00356a;
+    color: white;
+    transition: 0s;
+}
+
+.pinkBtn:hover {
+    background-color: #cc4980;
+    color: white;
+    transition: 0.5s;
+}
+
+.pinkBtn:active {
+    background-color: #92335b;
+    color: white;
+    transition: 0s;
+}
+
+.authForm p {
+    margin-top: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+.authForm p:hover {
+    text-decoration: underline;
+}

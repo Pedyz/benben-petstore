@@ -1,0 +1,28 @@
+.btnDiv {
+    display: flex;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+.btnDiv button {
+    font-size: .9rem;
+    font-weight: bold;
+    padding: 6px 25px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: "Jost", sans-serif, system-ui;
+    transition: 1s;
+}
+
+.btnDiv button:hover {
+    background-color: #0353a4;
+    color: white;
+    transition: 0.5s;
+}
+
+.btnDiv button:active {
+    background-color: #00356a;
+    color: grey;
+    transition: 0s;
+}
